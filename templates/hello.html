@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>Привет {{ username }}</p>
+<form action="/logout">
+    <input type="submit" value="Выйти">
+</form>
+{% endblock %}
